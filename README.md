@@ -10,6 +10,7 @@
   <img src="https://img.shields.io/badge/AI%20Engine-Gemini%203.5%20Flash%20Lite-4285F4?style=for-the-badge&logo=google" alt="Gemini 3.5 Flash Lite" />
   <img src="https://img.shields.io/badge/Target-4.8M%20Bedspaces%20(PH)-16A34A?style=for-the-badge" alt="4.8M Bedspaces" />
   <img src="https://img.shields.io/badge/Stack-React%2019%20%7C%20Vite%208.3%20%7C%20Firebase-F1AE17?style=for-the-badge" alt="React Vite Firebase" />
+  <a href="#-interactive-pitch-video--end-to-end-demo-walkthrough"><img src="https://img.shields.io/badge/🎬%20Watch%20Demo-1m%2050s%20Video-0F172A?style=for-the-badge" alt="Watch Demo Video" /></a>
 </p>
 
 ---
@@ -18,6 +19,284 @@
 
 > **The Stage Hook:**
 > *"In the Philippines, 4.8 million students and workers live in informal boarding houses, bedspaces, and dorms transacting over \$1.2 Billion annually. Yet, 90% of these rentals run on verbal promises, scrap paper notebooks, lost keys, and fake GCash screenshots. Existing property management tech requires expensive US smart locks and \$200 monthly fees. **Rent in Peace** is the world's first **100% software-only, zero-hardware lease and rental ledger platform** built for Philippine reality. Powered by **Google Gemini 3 (Gemini 3.5 Flash Lite / 3.1 Flash Lite)**, it turns plain house rules into single-page bilingual A4 Kasulatan agreements, audits GCash payments, and releases digital door keypad PINs—working seamlessly with ₱800 Shopee keypad locks without a single wire or IoT hub."*
+
+---
+
+## 🎬 Interactive Pitch Video & End-to-End Demo Walkthrough
+
+> 💡 **Pitch Competition Live Recording**: Recorded on mobile viewport (390×844 @ 2x DPR) following our strict 4:30 pitch timeline for the **GDG Cagayan de Oro Pitching Competition**. Below you can watch the complete master video track or explore each interactive scene with animated live recordings, real-time backend synchronization, and stage voiceover cues.
+
+<p align="center">
+  <a href="docs/video/rough-cut.mp4">
+    <img src="docs/video/frames/intro-card-rounded.png" width="300" alt="Watch Master Pitch Video" style="border-radius: 20px; box-shadow: 0 12px 32px rgba(0,0,0,0.45);" />
+  </a>
+  <br><br>
+  <a href="docs/video/rough-cut.mp4">
+    <img src="https://img.shields.io/badge/▶️%20Master%20Pitch%20Video-1m%2050s%20Cut%20(780x1688)-14532D?style=for-the-badge&logo=youtube&logoColor=F1AE17" alt="Watch Master Pitch Video" />
+  </a>
+  <a href="docs/video/script.md">
+    <img src="https://img.shields.io/badge/🎙️%20Pitch%20Script-4:30%20(584%20Words)-4285F4?style=for-the-badge" alt="Pitch Script" />
+  </a>
+  <a href="docs/video/shotlist.md">
+    <img src="https://img.shields.io/badge/📋%20Cue%20Sheet-8%20Scenes%20Mapped-16A34A?style=for-the-badge" alt="Shotlist" />
+  </a>
+</p>
+
+### 📱 Interactive Scene-by-Scene Flow Explorer
+
+<details open>
+<summary><b>🎬 Scene 01: Landlord Creates Bilingual Kasulatan & Room Code (0:00 - 0:16)</b></summary>
+
+<br>
+
+<table>
+<tr>
+<td width="300" align="center" valign="top">
+  <a href="docs/video/clips/01-landlord-create-lease.mp4">
+    <img src="docs/video/gifs/01-create-lease.gif" width="260" alt="Scene 01 Live Action" style="border-radius: 16px; box-shadow: 0 4px 14px rgba(0,0,0,0.25);" />
+  </a>
+  <br><br>
+  <a href="docs/video/clips/01-landlord-create-lease.mp4"><b>▶️ Watch Clip 01 (16.0s MP4)</b></a>
+</td>
+<td valign="top">
+
+#### 👑 Role: Landlord Operator
+
+- **📱 User Flow**: Engr. Roberto Tan enters unit identifier (`Unit 4`), sets financial terms (`₱3,500/mo`, 1 mo advance, 1 mo deposit), and taps *Generate Kasulatan*.
+- **🤖 Gemini AI Integration**: Google Gemini 3.5 Flash Lite generates a tailored 7-clause bilingual agreement in English and Sinugbuanong Binisaya engineered strictly for single-page A4 bond paper fit.
+- **✍️ Digital E-Signing**: Landlord signs directly on screen and taps *Save*.
+- **🔑 Cryptographic Output**: Lease document is committed with status `open`. The platform generates a unique 8-character Room Code (`RIP-OPEN`) and shareable link.
+- **🎙️ Stage Voiceover**:
+  > *"Engr. Tan opens the app, enters Unit 4 for ₱3,500, and taps Generate. In seconds, Gemini formats a single-page bilingual Kasulatan in English and Bisaya. He signs right on screen, hits Save, and instantly gets a room code and share link. No paper, no lawyer needed."*
+- **💡 Key Advantage**: No room code or link exists prior to digital signing. Contract text is permanently frozen against tampering.
+
+</td>
+</tr>
+</table>
+
+</details>
+
+<details open>
+<summary><b>🎬 Scene 02: Tenant Joins with Room Code, Toggles Bisaya & E-Signs (0:16 - 0:33)</b></summary>
+
+<br>
+
+<table>
+<tr>
+<td width="300" align="center" valign="top">
+  <a href="docs/video/clips/02-tenant-join-register-sign.mp4">
+    <img src="docs/video/gifs/02-tenant-sign.gif" width="260" alt="Scene 02 Live Action" style="border-radius: 16px; box-shadow: 0 4px 14px rgba(0,0,0,0.25);" />
+  </a>
+  <br><br>
+  <a href="docs/video/clips/02-tenant-join-register-sign.mp4"><b>▶️ Watch Clip 02 (16.7s MP4)</b></a>
+</td>
+<td valign="top">
+
+#### 👤 Role: Tenant Resident
+
+- **📱 User Flow**: Elena opens the shared link or enters room code `RIP-OPEN`. Registers account with full legal name, phone, and strong password.
+- **🌐 Bilingual Toggle**: Elena toggles the contract view from English to Sinugbuanong Binisaya to understand curfews, utilities, and deposit terms in her native tongue.
+- **✍️ Digital E-Signing**: Checks statutory acknowledgment and signs using touchscreen.
+- **⚡ Status Transition**: Firestore updates lease status from `open` to `pending_payment`. Tenant slot is locked exclusively to Elena; duplicate attempts are blocked.
+- **🎙️ Stage Voiceover**:
+  > *"Elena opens the link, registers with a secure password, and toggles the contract to Bisaya so she understands every single house rule. She signs on her phone. Status shifts to pending payment. The room is locked to her alone."*
+- **💡 Key Advantage**: Eliminates verbal ambiguity (*"sabot-sabot"*) by ensuring tenants understand terms before paying any move-in cash.
+
+</td>
+</tr>
+</table>
+
+</details>
+
+<details>
+<summary><b>🎬 Scene 03: Tenant Submits GCash Payment Proof (0:33 - 0:42)</b></summary>
+
+<br>
+
+<table>
+<tr>
+<td width="300" align="center" valign="top">
+  <a href="docs/video/clips/03-tenant-upload-payment-proof.mp4">
+    <img src="docs/video/gifs/03-payment-upload.gif" width="260" alt="Scene 03 Live Action" style="border-radius: 16px; box-shadow: 0 4px 14px rgba(0,0,0,0.25);" />
+  </a>
+  <br><br>
+  <a href="docs/video/clips/03-tenant-upload-payment-proof.mp4"><b>▶️ Watch Clip 03 (8.9s MP4)</b></a>
+</td>
+<td valign="top">
+
+#### 👤 Role: Tenant Resident
+
+- **📱 User Flow**: Elena sends initial move-in payment (₱7,000 for advance + deposit) via GCash to the landlord's QR/number.
+- **📸 Receipt Upload**: Uploads GCash transaction screenshot and inputs 12-digit reference number (`902148192837`).
+- **🛡️ Anti-Duplicate Audit**: System checks reference against global payments collection to prevent recycled screenshot scams.
+- **🔒 Security Gating**: Status shifts to `pending_verification`. Elena's screen displays *"Waiting for verification"*—the door access code remains strictly hidden.
+- **🎙️ Stage Voiceover**:
+  > *"Elena pays via GCash and uploads the receipt with the reference number. Her screen shows 'Waiting for Verification'—and notice, no door code appears yet. Fake screenshots cannot get past this gate."*
+- **💡 Key Advantage**: Physical keypads and door codes are never released on trust; proof is auditable and time-stamped.
+
+</td>
+</tr>
+</table>
+
+</details>
+
+<details open>
+<summary><b>🎬 Scene 04: Landlord Audits Payment & Cryptographic Door PIN Issued (0:42 - 0:53)</b></summary>
+
+<br>
+
+<table>
+<tr>
+<td width="300" align="center" valign="top">
+  <a href="docs/video/clips/04-landlord-verify-payment.mp4">
+    <img src="docs/video/gifs/04-verify-payment.gif" width="260" alt="Scene 04 Live Action" style="border-radius: 16px; box-shadow: 0 4px 14px rgba(0,0,0,0.25);" />
+  </a>
+  <br><br>
+  <a href="docs/video/clips/04-landlord-verify-payment.mp4"><b>▶️ Watch Clip 04 (11.2s MP4)</b></a>
+</td>
+<td valign="top">
+
+#### 👑 Role: Landlord Operator
+
+- **🔔 Action Required Alert**: Engr. Tan's dashboard displays a prominent Amber Gold alert badge notifying him of Elena's payment.
+- **🔍 Modal Receipt Inspection**: Landlord opens the payment modal, inspects high-res receipt screenshot with interactive zoom, and checks the reference number against bank SMS notifications.
+- **✅ Verification Action**: Landlord taps *"Verify Payment & Issue Access Code"*.
+- **🔐 Cryptographic Gate Release**: Backend generates a random 5-digit door PIN (`48291`) tied to this specific lease, tenant, and payment.
+- **🎙️ Stage Voiceover**:
+  > *"On Engr. Tan's dashboard, an 'Action Required' alert pops up. He inspects the receipt and taps Verify. Instantly, a secure 5-digit door access code is generated on his screen. The contract, tenant, and payment are now permanently tied together."*
+- **💡 Key Advantage**: Landlords retain complete verification authority before door access is granted—zero hardware hubs required.
+
+</td>
+</tr>
+</table>
+
+</details>
+
+<details>
+<summary><b>🎬 Scene 05: Tenant Resident Portal Live Update (Real-Time Sync) (0:53 - 0:58)</b></summary>
+
+<br>
+
+<table>
+<tr>
+<td width="300" align="center" valign="top">
+  <a href="docs/video/clips/05-tenant-portal-live-update.mp4">
+    <img src="docs/video/gifs/05-live-sync.gif" width="260" alt="Scene 05 Live Action" style="border-radius: 16px; box-shadow: 0 4px 14px rgba(0,0,0,0.25);" />
+  </a>
+  <br><br>
+  <a href="docs/video/clips/05-tenant-portal-live-update.mp4"><b>▶️ Watch Clip 05 (4.9s MP4)</b></a>
+</td>
+<td valign="top">
+
+#### 👤 Role: Tenant Resident
+
+- **⚡ Zero-Reload Live Sync**: Without refreshing the page, Firestore's document listener detects status change to `active`.
+- **🔓 Keypad PIN Unlocked**: Elena's screen immediately transitions to *"Verified Active"*, revealing door PIN `48291` with a one-tap copy button.
+- **📄 Complete Resident Hub**: Maria can view her room assignment (`Room 201`), access her signed bilingual Kasulatan, and review logged payment transactions.
+- **🎙️ Stage Voiceover**:
+  > *"Without refreshing, Elena's phone updates live. She sees her verified status, her door access code, and her full contract. She can now punch the code into the keypad lock and move in."*
+- **💡 Key Advantage**: Frictionless resident onboarding with instantaneous feedback, even over 3G mobile connections.
+
+</td>
+</tr>
+</table>
+
+</details>
+
+<details>
+<summary><b>🎬 Scene 06: Unified Cross-Index Search (0:58 - 1:04)</b></summary>
+
+<br>
+
+<table>
+<tr>
+<td width="300" align="center" valign="top">
+  <a href="docs/video/clips/06-landlord-search-cross-index.mp4">
+    <img src="docs/video/gifs/06-search.gif" width="260" alt="Scene 06 Live Action" style="border-radius: 16px; box-shadow: 0 4px 14px rgba(0,0,0,0.25);" />
+  </a>
+  <br><br>
+  <a href="docs/video/clips/06-landlord-search-cross-index.mp4"><b>▶️ Watch Clip 06 (5.7s MP4)</b></a>
+</td>
+<td valign="top">
+
+#### 👑 Role: Landlord Operator
+
+- **🔎 Instant Search Filter**: Landlord types door access PIN `48291` into the dashboard search bar.
+- **🔗 Relational Linking**: System queries across leases, tenants, and payment records simultaneously.
+- **📋 Unified Resolution**: Immediately surfaces the contract, tenant identity, unit details, and verified GCash transaction in under 100ms.
+- **🎙️ Stage Voiceover**:
+  > *"Months later, if anyone asks about a tenant or a payment, Engr. Tan just types the door code into search. The contract, the tenant profile, and every single receipt appear in one click."*
+- **💡 Key Advantage**: Solves the #1 problem of lost receipts and paper logbooks; every physical door PIN is an immutable audit key.
+
+</td>
+</tr>
+</table>
+
+</details>
+
+<details open>
+<summary><b>🎬 Scene 07: Google Gemini AI Bilingual Clause Assistant (1:04 - 1:17)</b></summary>
+
+<br>
+
+<table>
+<tr>
+<td width="300" align="center" valign="top">
+  <a href="docs/video/clips/07-gemini-ai-clause-suggestion.mp4">
+    <img src="docs/video/gifs/07-gemini-ai.gif" width="260" alt="Scene 07 Live Action" style="border-radius: 16px; box-shadow: 0 4px 14px rgba(0,0,0,0.25);" />
+  </a>
+  <br><br>
+  <a href="docs/video/clips/07-gemini-ai-clause-suggestion.mp4"><b>▶️ Watch Clip 07 (13.3s MP4)</b></a>
+</td>
+<td valign="top">
+
+#### 👑 Role: Landlord Operator
+
+- **🤖 Natural Language Prompting**: Landlord types plain house rules: *"Visitors allowed until 8 PM only. No loud music or karaoke after 10 PM."*
+- **⚡ Google Gemini 3 Cascade**: Gemini 3.5 Flash Lite generates a balanced legal clause pair in English and Sinugbuanong Binisaya with sub-second latency.
+- **📏 Single-Page A4 Budget**: Prompt constraints prevent clause bloating so the physical Kasulatan never spills over onto a second page.
+- **✍️ Landlord Review Gate**: Landlord reviews the generated wording, makes optional edits, and confirms insertion. AI never auto-commits without human sign-off.
+- **🎙️ Stage Voiceover**:
+  > *"Every boarding house has unique rules. Engr. Tan types 'No visitors after 8 PM, no loud karaoke after 10.' Gemini drafts the exact legal clause in English and Bisaya. He reviews it, confirms, and it's added. He stays in full control."*
+- **💡 Key Advantage**: Democratizes legal drafting for non-lawyer boarding house operators while preserving regional Bisaya fluency.
+
+</td>
+</tr>
+</table>
+
+</details>
+
+<details>
+<summary><b>🎬 Scene 08: Preset Library, Clause Reordering & Custom Placeholders (1:17 - 1:30)</b></summary>
+
+<br>
+
+<table>
+<tr>
+<td width="300" align="center" valign="top">
+  <a href="docs/video/clips/08-presets-reorder-placeholders.mp4">
+    <img src="docs/video/gifs/08-presets.gif" width="260" alt="Scene 08 Live Action" style="border-radius: 16px; box-shadow: 0 4px 14px rgba(0,0,0,0.25);" />
+  </a>
+  <br><br>
+  <a href="docs/video/clips/08-presets-reorder-placeholders.mp4"><b>▶️ Watch Clip 08 (12.6s MP4)</b></a>
+</td>
+<td valign="top">
+
+#### 👑 Role: Landlord Operator
+
+- **📚 Preset Library**: Choose between *Bedspace*, *Private Room with Bath*, or *Studio Apartment* templates.
+- **🔄 Visual Clause Reordering**: Move clauses up and down with instant visual re-indexing.
+- **🏷️ Dynamic Placeholders**: Insert tokens (`{{monthly_rent}}`, `{{unit_identifier}}`, `{{tenant_name}}`) that populate dynamically on lease creation.
+- **👁️ Live A4 Preview**: Launch the bilingual preview modal to inspect the exact printable document layout before saving.
+- **🎙️ Stage Voiceover**:
+  > *"Landlords can choose from presets for bedspaces, private rooms, or apartments, edit clauses, insert placeholders like tenant name, and live-preview the exact A4 layout in both languages."*
+- **💡 Key Advantage**: High flexibility for diverse Philippine boarding house setups—from multi-bed dormitories to self-contained studio rentals.
+
+</td>
+</tr>
+</table>
+
+</details>
 
 ---
 

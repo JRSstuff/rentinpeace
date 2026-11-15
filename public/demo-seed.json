@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T15:43:34.788Z",
+  "generatedAt": "2026-11-15T00:55:55.215Z",
   "projectId": "rentinpeace",
   "landlord": {
     "id": "09171234567",
@@ -13,7 +13,7 @@
     "city": "Cagayan de Oro City",
     "pin": "1234",
     "demo": true,
-    "createdAt": "2026-11-14T15:43:32.125Z"
+    "createdAt": "2026-11-15T00:55:52.514Z"
   },
   "presets": [
     {
@@ -23,7 +23,7 @@
       "propertyType": "Boarding House / Bedspace",
       "isBuiltin": false,
       "demo": true,
-      "updatedAt": "2026-11-14T15:43:32.253Z",
+      "updatedAt": "2026-11-15T00:55:52.628Z",
       "clauses": [
         {
           "num": 1,
@@ -83,7 +83,7 @@
       "propertyType": "Private Room with Bath",
       "isBuiltin": false,
       "demo": true,
-      "updatedAt": "2026-11-14T15:43:32.253Z",
+      "updatedAt": "2026-11-15T00:55:52.628Z",
       "clauses": [
         {
           "num": 1,
@@ -143,7 +143,7 @@
       "propertyType": "Apartment / Studio Unit",
       "isBuiltin": false,
       "demo": true,
-      "updatedAt": "2026-11-14T15:43:32.253Z",
+      "updatedAt": "2026-11-15T00:55:52.628Z",
       "clauses": [
         {
           "num": 1,
